@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -61,7 +62,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'upload-zone': 'var(--upload-zone)',
+				'upload-zone-border': 'var(--upload-zone-border)',
+				'upload-zone-hover': 'var(--upload-zone-hover)',
+				'file-item': 'var(--file-item)',
+				'file-item-hover': 'var(--file-item-hover)'
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-upload': 'var(--gradient-upload)',
+				'gradient-success': 'var(--gradient-success)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
